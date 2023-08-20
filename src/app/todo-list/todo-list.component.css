@@ -1,0 +1,48 @@
+div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  .btbb{
+    background-color: blue !important;
+  }
+  .btn{
+ background-color: red !important;
+  }
+  .position-absolute{
+    width: 50%;
+  }
+
+  

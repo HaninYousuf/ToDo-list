@@ -1,0 +1,24 @@
+
+ 
+        <div class="position-absolute top-50 start-50 translate-middle">
+    <h1 class="he">To-Do List</h1>
+
+
+    
+    <input type="text" class="form-control" placeholder="Enter a new task" [(ngModel)]="newTask">
+
+    
+
+    <button class="btnn btn-primary mt-2" (click)="addTask()">Add Task</button>
+    <ul class="list-group mt-3">
+      <li class="list-group-item" *ngFor="let task of tasks; let i = index">
+        {{ task }}
+        <button class="btn btn-danger btn-sm float-right" (click)="removeTask(i)">Delete</button>
+      </li>
+    </ul>
+  </div>
+  
+
+ 
+
+
